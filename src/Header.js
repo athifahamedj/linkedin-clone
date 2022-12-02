@@ -1,29 +1,25 @@
 import React from 'react';
 import "./Header.css";
-import HeaderOption from './HeaderOption';
 import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import HeaderOption from './HeaderOption';
 
-
-function Header() {
+const Header = () => {
 return (
 <React.Fragment> 
-  <div className='header'>
+  <div className="header">
  
     <div className="header__left">
 
-      <img src= "https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="no image"/>
+      <img src= "https://cdn-icons-png.flaticon.com/512/3536/3536505.png"alt='Linkedin Logo'/>
      
-
       <div className="header__search">
-
         <SearchIcon/>
-
-        <input type="text" placeholder='Search'></input>
+        <input type="text" placeholder='Search'/>
 
       </div>
 
